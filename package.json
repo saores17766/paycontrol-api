@@ -1,0 +1,24 @@
+{
+  "name": "paycontrol-api",
+  "version": "2.0.0",
+  "description": "PayControl - Backend API (Multi-tenant SaaS) - Rebuilt",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "node api/index.js",
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.1.0",
+    "zod": "^3.22.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
